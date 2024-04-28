@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ParserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-04-24T15:59:51" hostname="DESKTOP-LB1A5HP" time="0.129">
+<testsuite name="ParserTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-04-27T21:07:57" hostname="DESKTOP-LB1A5HP" time="0.099">
   <properties/>
-  <testcase name="testSortByName()" classname="ParserTest" time="0.129"/>
+  <testcase name="testSortByArea()" classname="ParserTest" time="0.031"/>
+  <testcase name="testSortByName()" classname="ParserTest" time="0.059"/>
+  <testcase name="testSortByPopulation()" classname="ParserTest" time="0.005"/>
   <system-out><![CDATA[0 Afghanistan
 1 Albania
 2 Algeria

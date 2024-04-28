@@ -1,12 +1,19 @@
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.layout.StackPane;
+import javafx.stage.Stage;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import java.io.File;
 import java.io.IOException;
+import java.net.URL;
 import java.util.*;
 
-public class Parser {
+public class Parser extends Application {
     static List<Country> countries = new ArrayList<>();
 
     public static List<Country> sortByName(){
@@ -91,5 +98,15 @@ public class Parser {
     public static void main(String[] args) throws IOException {
         setUp();
         sortByName();
+        launch(args);
+    }
+
+    @Override
+    public void start(Stage stage) throws Exception {
+        Parent parent = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("main.fxml")));;
+        Scene scene = new Scene(parent);
+        stage.setScene(scene);
+        stage.show();
+        stage.centerOnScreen();
     }
 }
