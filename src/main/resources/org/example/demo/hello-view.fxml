@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="477.0" prefWidth="529.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.demo.MainController">
+  <padding>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+  </padding>
+   <children>
+      <Label layoutX="154.0" layoutY="73.0" prefHeight="53.0" prefWidth="292.0" text="Country Displayer">
+         <font>
+            <Font size="36.0" />
+         </font></Label>
+      <Button layoutX="215.0" layoutY="153.0" mnemonicParsing="false" onAction="#showName" prefHeight="48.0" prefWidth="171.0" text="sorted by name">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button layoutX="215.0" layoutY="212.0" mnemonicParsing="false" onAction="#showPopulation" prefHeight="49.0" prefWidth="171.0" text="sorted by population">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button layoutX="215.0" layoutY="281.0" mnemonicParsing="false" onAction="#showArea" prefHeight="47.0" prefWidth="171.0" text="sort by area">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+   </children>
+</VBox>
