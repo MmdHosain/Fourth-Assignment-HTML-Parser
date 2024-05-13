@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="855.0" prefWidth="1210.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.demo.CountriesView">
+   <children>
+      <Pane layoutX="1.0" layoutY="1.0" prefHeight="855.0" prefWidth="1210.0">
+         <children>
+            <Button layoutX="453.0" layoutY="773.0" mnemonicParsing="false" onAction="#reducePage" prefHeight="46.0" prefWidth="92.0" text="previous">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="657.0" layoutY="772.0" mnemonicParsing="false" onAction="#addPage" prefHeight="46.0" prefWidth="92.0" text="next">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Label fx:id="pageNum" layoutX="555.0" layoutY="783.0" prefHeight="27.0" prefWidth="89.0" text=" page num">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <VBox layoutX="813.0" layoutY="251.0" prefHeight="313.0" prefWidth="392.0">
+               <children>
+                  <Label fx:id="name_1" text="name">
+                     <font>
+                        <Font size="60.0" />
+                     </font></Label>
+                  <Label fx:id="capital_1" text="Label">
+                     <font>
+                        <Font size="38.0" />
+                     </font></Label>
+                  <Label text="area">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="area_1" text="33434">
+                     <font>
+                        <Font size="23.0" />
+                     </font></Label>
+                  <Label text="population">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="population_1" text="34334">
+                     <font>
+                        <Font size="23.0" />
+                     </font></Label>
+               </children>
+            </VBox>
+            <VBox layoutX="439.0" layoutY="251.0" prefHeight="274.0" prefWidth="332.0">
+               <children>
+                  <Label fx:id="name_2" text="name 2">
+                     <font>
+                        <Font size="60.0" />
+                     </font></Label>
+                  <Label fx:id="capital_2" text="capital 2">
+                     <font>
+                        <Font size="38.0" />
+                     </font></Label>
+                  <Label text="area">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="area_2" text="21231313">
+                     <font>
+                        <Font size="23.0" />
+                     </font></Label>
+                  <Label text="population">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="population_2" text="343434434">
+                     <font>
+                        <Font size="23.0" />
+                     </font></Label>
+               </children>
+            </VBox>
+            <VBox layoutX="85.0" layoutY="251.0" prefHeight="282.0" prefWidth="332.0">
+               <children>
+                  <Label fx:id="name_3" text="name 1">
+                     <font>
+                        <Font size="60.0" />
+                     </font></Label>
+                  <Label fx:id="capital_3" text="capital 1">
+                     <font>
+                        <Font size="38.0" />
+                     </font></Label>
+                  <Label text="area">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="area_3" text="86464444">
+                     <font>
+                        <Font size="23.0" />
+                     </font></Label>
+                  <Label text="population">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="population_3" text="346644643544">
+                     <font>
+                        <Font size="23.0" />
+                     </font></Label>
+               </children>
+            </VBox>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
